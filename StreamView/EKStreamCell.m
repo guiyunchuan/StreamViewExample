@@ -61,6 +61,15 @@ const CGFloat kViewCornerRadius = 5.0f;
        self.mainImageView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
         [self.mainImageView setContentMode:UIViewContentModeScaleAspectFit];
        [self.mainImageView setBackgroundColor:[UIColor whiteColor]];
+        
+        //添加手势
+        UITapGestureRecognizer *singleTap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(onClickImage)];
+        [ self.mainImageView addGestureRecognizer:singleTap];
+        
+        [self.mainImageView setUserInteractionEnabled:TRUE];  //设置UIImageView允许点击
+        
+  
+        
         [bgView addSubview: self.mainImageView];
         
         //图片上的View
@@ -162,5 +171,8 @@ const CGFloat kViewCornerRadius = 5.0f;
     // Drawing code
 }
 */
+-(void)onClickImage{
+    NSLog(@"你选中了ViewPicture");
+}
 
 @end
