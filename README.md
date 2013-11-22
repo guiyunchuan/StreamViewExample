@@ -1,6 +1,6 @@
 `EKStreamView` renders a number of columns containing multiple cells by reusing the cell views whenever possible, similar to `UITableView`. It's fast even you have hundreds of cells since only a small number of cells are actually created.
 
-![EKStreamView](https://github.com/guiyunchuan/StreamViewExample/blob/master/Screenshot%202013.11.22%2010.13.35.png "Screenshot")
+![StreamViewExample](https://github.com/guiyunchuan/StreamViewExample/blob/master/screenshot.png "Screenshot")
 
 ## Usage ##
 
