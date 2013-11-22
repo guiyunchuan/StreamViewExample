@@ -1,12 +1,6 @@
 `EKStreamView` renders a number of columns containing multiple cells by reusing the cell views whenever possible, similar to `UITableView`. It's fast even you have hundreds of cells since only a small number of cells are actually created.
-EKStreamView
-https://github.com/ekohe/EKStreamView
-EGOTableViewPullRefresh
-https://github.com/enormego/EGOTableViewPullRefresh
 
 ![EKStreamView](https://github.com/guiyunchuan/StreamViewExample/blob/master/Screenshot%202013.11.22%2010.13.35.png "Screenshot")
-![EKStreamView](https://github.com/guiyunchuan/StreamViewExample/blob/master/Screenshot%202013.11.22%2010.12.18.png "Screenshot")
-
 
 ## Usage ##
 
