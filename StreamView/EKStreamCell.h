@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "EKStreamView.h"
 ////图片底部信息栏高度
-const CGFloat  kViewInfoHeight  =25.0f;
+#define  kViewInfoHeight  25.0f
 @interface EKStreamCell : UIView<EKResusableCell>
 {
     NSString *reuseIdentifier;
